@@ -1,130 +1,62 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu portal de notícias</title>
-    <link rel="stylesheet" href="./main.css" />
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Fim-da-Fonte -->
+    <link rel="stylesheet" href="main.css">
+    <title>Site de Noticias</title>
 </head>
 <body>
     <header>
-        <h1>Meu portal de notícias</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
-                </li>
-                <li>
-                    <a href="#economy" title="Ir para a seção de notícias">Economia</a>
-                </li>
-            </ul>
-        </nav>
+        <div class="cabecalho">
+            <h1>Meu Site de Noticias</h1>
+            <nav>
+                <ul>
+                    <li><a href="#animes">Animes</a></li>
+                    <li><a href="#curiosidades">Curiosidades</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section>
-        <h2>Esportes</h2>
-        <article>
-            <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Grande clássico na noite de hoje</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="./imagens/futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Noite do Superbowl</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Notícia sobre a NBA</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Notícia sobre a NBA</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-    </section>
-    <section>
-        <h2>Economia</h2>
-        <article>
-            <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Dólar em alta de 0.50%</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Euro em queda de 0.40%</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Alta no preço do barril do petróleo</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="./imagens/noticia1.webp" alt="Extração de petróleo" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Demon Slayer: Kimetsu no Yaiba Hashira Training Arc terá episódios finais estendidos</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="./imagens/noticia2.webp" alt="Extração de petróleo" />
-            <header>
-                <time>13/07/2022 às 12:35</time>
-            </header>
-            <h3>Casos de família! Anime de My Hero Academia ganha arte de Todoroki contra Dabi</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-    </section>
+    <main>
+        <section id="animes" >
+            <h2>Animes</h2>
+            <article id="noticia-cell" class="flex">
+                <h3>Cell é destaque em novo trailer de Dragon Ball: Sparking! Zero</h3>
+                <img src="imagens/noticia-anime.webp" alt="Cell-Dragon-Ball">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus ipsam nesciunt molestias illo. Temporibus, corporis voluptatem cum debitis quisquam id quaerat laborum amet veritatis eveniet laudantium nisi a asperiores voluptatibus.</p>
+            </article>
+
+            <article id="noticia-frieren" class="flex">
+                <h3>2ª temporada de Frieren e a Jornada para o Além é anunciada</h3>
+                <img src="imagens/noticia-anime2.webp" alt="Frieren">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus ipsam nesciunt molestias illo. Temporibus, corporis voluptatem cum debitis quisquam id quaerat laborum amet veritatis eveniet laudantium nisi a asperiores voluptatibus.</p>
+            </article>
+        </section>
+
+        <section id="curiosidades">
+            <h2>Curiosidades</h2>
+            <article id="noticia-ceara" class="flex">
+                <h3>Ceará vence Brusque por 1 a 0 no Castelão e se aproxima do G4 da Série B</h3>
+                <img src="imagens/curiosidade-1.jpeg" alt="Jogadores do Time do Ceara">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus ipsam nesciunt molestias illo. Temporibus, corporis voluptatem cum debitis quisquam id quaerat laborum amet veritatis eveniet laudantium nisi a asperiores voluptatibus.</p>
+            </article>
+
+            <article id="noticia-frieren" class="flex">
+                <h3>Bandeira vermelha 2: outubro terá conta de luz mais cara</h3>
+                <img src="imagens/curiosidade-2.jpg" alt="Conta de luz">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus ipsam nesciunt molestias illo. Temporibus, corporis voluptatem cum debitis quisquam id quaerat laborum amet veritatis eveniet laudantium nisi a asperiores voluptatibus.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Site criado por <span>Aurélio Anderson.</span></p>
+    </footer>
 </body>
 </html>
