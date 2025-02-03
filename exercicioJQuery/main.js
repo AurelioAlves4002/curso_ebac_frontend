@@ -15,4 +15,10 @@ $(document).ready(function(e) {
             alert ("Por favor, digite uma tarefa!");
         }
     });
+
+    $("#taskList").on("click", "button", function(e) {
+        $(this).parent().remove();
+    });
+
+    
 })
