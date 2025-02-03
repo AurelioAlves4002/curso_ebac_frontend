@@ -20,5 +20,7 @@ $(document).ready(function(e) {
         $(this).parent().remove();
     });
 
-    
-})
+    $("#taskList").on("click", "li", function (e) {
+        $(this).toggleClass("completed");
+    });
+});
