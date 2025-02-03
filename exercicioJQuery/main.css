@@ -76,3 +76,21 @@ form {
     cursor: pointer;
 }
 
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.remove-task {
+    margin-left: 10px;
+    padding: 5px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.remove-task:hover {
+    background-color: #c82333;
+}
