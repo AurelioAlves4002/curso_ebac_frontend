@@ -1,6 +1,7 @@
 $(document).ready(function(e) {
     $("#addTaskBtn").click(function(e) {
-        const taskText = $("taskInput").val().trim();
+        e.preventDefault();
+        const taskText = $("#taskInput").val().trim();
 
         if (taskText !== "") {
             const newTask = $("<li>").text(taskText);
@@ -8,7 +9,7 @@ $(document).ready(function(e) {
             const removeBtn = $("<button>").text("Remover");
             newTask.append(removeBtn);
 
-            $("taskList").append(newTask)
+            $("#taskList").append(newTask)
 
             $("taskInput").val("");
         } else {
